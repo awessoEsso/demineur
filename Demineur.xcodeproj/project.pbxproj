@@ -12,6 +12,8 @@
 		E04671211E3F4023001299E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E046711F1E3F4023001299E4 /* Main.storyboard */; };
 		E04671231E3F4023001299E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04671221E3F4023001299E4 /* Assets.xcassets */; };
 		E04671261E3F4023001299E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04671241E3F4023001299E4 /* LaunchScreen.storyboard */; };
+		E046712E1E3F6354001299E4 /* DemineurCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046712D1E3F6354001299E4 /* DemineurCollectionViewController.swift */; };
+		E04671301E3F691C001299E4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046712F1E3F691C001299E4 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E04671221E3F4023001299E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04671251E3F4023001299E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04671271E3F4023001299E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E046712D1E3F6354001299E4 /* DemineurCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemineurCollectionViewController.swift; sourceTree = "<group>"; };
+		E046712F1E3F691C001299E4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E046711B1E3F4023001299E4 /* AppDelegate.swift */,
 				E046711D1E3F4023001299E4 /* ViewController.swift */,
 				E046711F1E3F4023001299E4 /* Main.storyboard */,
+				E046712F1E3F691C001299E4 /* MyCollectionViewCell.swift */,
+				E046712D1E3F6354001299E4 /* DemineurCollectionViewController.swift */,
 				E04671221E3F4023001299E4 /* Assets.xcassets */,
 				E04671241E3F4023001299E4 /* LaunchScreen.storyboard */,
 				E04671271E3F4023001299E4 /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E046711E1E3F4023001299E4 /* ViewController.swift in Sources */,
+				E046712E1E3F6354001299E4 /* DemineurCollectionViewController.swift in Sources */,
+				E04671301E3F691C001299E4 /* MyCollectionViewCell.swift in Sources */,
 				E046711C1E3F4023001299E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
